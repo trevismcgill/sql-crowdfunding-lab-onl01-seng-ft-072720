@@ -15,4 +15,7 @@ end_date TEXT
 
 CREATE TABLE pledges (
 id INT PRIMARY KEY,
+amount REAL,
+user_id INT,
+project_id INT
 );
